@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Aleo|B612+Mono|Cabin+Condensed|Caveat|Charm|Courgette|Crimson+Text|Frank+Ruhl+Libre|Marck+Script|Merriweather|Mukta|Niramit|Oswald|Oxygen|PT+Sans|PT+Serif|Pacifico|Patrick+Hand|Poppins|Roboto|Sacramento|Ubuntu+Condensed');
+
+
+.login {
+  margin-right: 20px;
+}
+
+.body {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  /* font-family: 'Frank Ruhl Libre', serif;
+  background-color: #fcfaf7; */
+}
+
+
+* {
+  font-family: 'Frank Ruhl Libre', serif;
+  background-color: #fcfaf7;
+}

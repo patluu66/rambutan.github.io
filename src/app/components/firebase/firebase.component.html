@@ -1,0 +1,180 @@
+<div>
+
+  <div class="row">
+
+
+    <div class="col-9">
+
+      <!-- <div> -->
+
+      <div class="homeContent">
+
+        <img src="../../../assets/images/workMeeting.jpeg" class="img-fluid workImage"
+        alt="Responsive image" class="workImage">
+
+        <div class="logo">
+          <span class="logoInPage">rambutan</span><br>
+          <span class="intro">Web Developer, Engineer, Designer, &
+            Entrepreneur
+          </span><br>
+          <!-- <span>Our engineer could help you build a web app from beginning to deployment
+            within 5 weeks.
+          </span> -->
+          <span>From start to deployment
+            within 5 weeks
+          </span>
+        </div>
+
+        <!-- <p class="intro">We are Web Developer, Engineer, Designer, & Entrepreneur.
+          Our engineer could help you build a web app from beginning to deployment
+          within 5 weeks.
+        </p> -->
+
+      </div>
+
+      <!-- </div> -->
+
+    </div>
+
+    <div class="col-3 chat">
+      <div class="printChatBox" style="overflow: scroll;
+        height: xyz;" #scrollMe [scrollTop]="scrollMe.scrollHeight">
+        <!-- <div class="alert alert-success alert-dismissible stickyAlert">
+          <button type="button" class="close" data-dismiss="alert">&times;</button>
+          Hello can we help you?
+        </div> -->
+        <div *ngFor="let chat of clients; let i = index">
+          <div id={{i}}>
+            <p><strong>{{chat.name}}:</strong> {{chat.subject}}</p>
+          </div>
+        </div>
+
+
+      </div>
+        <form>
+          <input type="text" [(ngModel)]="subject" name="subject"
+            placeholder="Send a message">
+
+          <button class="chatButton" (click)="postFirebase(name, subject)">
+            <!-- <a href="#50">Chat</a> -->
+            chat
+          </button>
+        </form>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <p class="intro">We are Web Developer, Engineer, Designer, & Entrepreneur.
+  Our engineer could help you build a web app from beginning to deployment
+  within 5 weeks.
+</p>
+
+<h3>Development Technology</h3>
+
+
+<div class="row">
+  <div class="col">
+    <hr>
+    Angular/React
+  </div>
+  <div class="col">
+    <hr>
+    Node JS
+  </div>
+  <div class="col">
+    <hr>
+    Express JS
+  </div>
+</div>
+<div class="row">
+  <div class="col">
+    <hr>
+    SQL/Firebase
+  </div>
+  <div class="col">
+    <hr>
+    Java
+  </div>
+  <div class="col">
+    <hr>
+    Microservice
+  </div>
+</div> -->
+
+
+
+
+
+
+
+
+
+
+<!-- <label for="name">Name: </label><br> -->
+<!-- Name:
+<input type="text" [(ngModel)]="name" name="name"><br> -->
+
+<!-- <label for="subject">Subject: </label><br> -->
+<!-- Subject: -->
+
+
+
+
+<!-- <div class="container">
+
+  <div class="col-8">
+
+  </div>
+
+
+
+  <div class="col-4">
+    col-4
+  </div>
+
+
+
+</div> -->
+
+<!-- <div class="container">
+  <div class="row">
+    <div class="col-8">
+      Our engineer could help you build a web app from beginning to deployment
+      within 4 weeks.
+    </div>
+    <div class="col-4 chat">
+      <div class="printChatBox">
+        <div *ngFor="let chat of clients; let i = index">
+
+          <p>{{chat.name}}: {{chat.subject}}</p>
+
+        </div>
+
+
+      </div>
+      <p>
+        <label for="name">Name: </label><br>
+        <input type="text" [(ngModel)]="name" name="name"><br>
+
+        <label for="subject">Subject: </label><br>
+        <input type="text" [(ngModel)]="subject" name="subject">
+
+        <button (click)="postFirebase(name, subject)">post</button>
+      </p>
+    </div>
+  </div>
+</div> -->

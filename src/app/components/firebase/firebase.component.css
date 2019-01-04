@@ -1,0 +1,132 @@
+/* @import url('https://fonts.googleapis.com/css?family=Charm');
+@import url('https://fonts.googleapis.com/css?family=Aleo|Charm');
+@import url('https://fonts.googleapis.com/css?family=Charm');
+@import url('https://fonts.googleapis.com/css?family=Courgette'); */
+@import url('https://fonts.googleapis.com/css?family=Aleo|B612+Mono|Cabin+Condensed|Caveat|Charm|Courgette|Crimson+Text|Frank+Ruhl+Libre|Marck+Script|Merriweather|Mukta|Niramit|Oswald|Oxygen|PT+Sans|PT+Serif|Pacifico|Patrick+Hand|Poppins|Roboto|Sacramento|Ubuntu+Condensed');
+
+/* body {
+  background-color: gray;
+} */
+
+.chat {
+  width: 10%;
+  height: 100%;
+  border-left-style: groove;
+  /* margin-bottom: 10px; */
+  margin-right: 0px;
+  padding-right: 0px;
+  /* padding-bottom: 10px; */
+  background-color: white;
+  /* color: white; */
+}
+
+.printChatBox {
+  overflow: scroll;
+  /* height: 600px; */
+  height: 85vh;
+  /* font-family: 'Charm', cursive; */
+}
+
+.chatButton {
+  margin: 10px 0 30px 0;
+}
+
+.row {
+  margin-right: 0px;
+  /* padding-left: 10px; */
+}
+
+* {
+  /* font-family: Arial;
+  font-family: 'Charm', cursive; */
+  /* font-family: 'Charm', cursive; */
+  /* font-family: 'Courgette', cursive; */
+  /* font-family: 'Courgette', cursive; */
+  /* font-family: 'Patrick Hand', cursive; */
+  /* font-family: 'Cabin Condensed', sans-serif; */
+  font-family: 'Frank Ruhl Libre', serif;
+  /* background-color: #fcfaf7; */
+  /* font-family: 'Niramit', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Charm', cursive;
+  font-family: 'Aleo', serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Merriweather', serif;
+  font-family: 'PT Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'PT Serif', serif;
+  font-family: 'B612 Mono', monospace;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'Oxygen', sans-serif;
+  font-family: 'Crimson Text', serif;
+  font-family: 'Pacifico', cursive;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-family: 'Caveat', cursive;
+  font-family: 'Sacramento', cursive;
+  font-family: 'Marck Script', cursive; */
+  /* background-color: #f2f2f2; */
+}
+
+.logo {
+  /* position: absolute; */
+  /* top: 50%; */
+  position: absolute;
+  font-size: 25px;
+  /* font-size:8vw; */
+  left: 50%;
+  top: 70%;
+  width: 100%;
+  height: 90%;
+  text-align: center;
+  /* color: white; */
+  /* font-size: 18px; */
+  transform: translate(-50%, -50%);
+  color: white;
+  /* background-color: blue; */
+  /* z-index: -1; */
+  /* font-weight: 400; */
+  /* text-align: left; */
+  /* z-index: 3; */
+}
+
+.intro {
+  text-align: center;
+}
+
+.homeContent {
+  position: relative;
+  background-color: #191313;
+  z-index: 3;
+  width: 101%;
+  /* margin-top: 50px; */
+  height: auto;
+  /* padding: 30px 30px 30px 30px; */
+  /* overflow: scroll;
+  height: 85vh; */
+}
+
+.stickyAlert {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.workImage {
+  /* margin-top: 150px; */
+  width: 100%;
+  height: auto;
+  /* opacity: 0.4; */
+  opacity: 0.3;
+  filter: alpha(opacity=30); /* For IE8 and earlier */
+  z-index: -1;
+}
+
+.logoInPage {
+  /* margin-top: 60px; */
+  /* font-size: 68px; */
+  font-size:8vw;
+}
+
+/* .workImage {
+  z-index: -1;
+} */
