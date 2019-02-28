@@ -451,7 +451,7 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 
 var appRoutes = [
     { path: 'rambutan', component: _components_main_main_component__WEBPACK_IMPORTED_MODULE_23__["MainComponent"] },
-    { path: '', redirectTo: '/rambutan', pathMatch: 'full' },
+    { path: '', redirectTo: 'rambutan', pathMatch: 'full' },
     { path: 'chat', component: _components_firebase_firebase_component__WEBPACK_IMPORTED_MODULE_9__["FirebaseComponent"] },
     { path: 'user', component: _components_user_user_component__WEBPACK_IMPORTED_MODULE_4__["UserComponent"] },
     { path: 'about', component: _components_about_about_component__WEBPACK_IMPORTED_MODULE_5__["AboutComponent"] },
